@@ -22,13 +22,17 @@ namespace CarApi.Controllers
             var context = BrowsingContext.New(config);
             var document = await context.OpenAsync(url);
 
-            var descriptionElement = document.QuerySelector(".e1336z0n2");
+            var nameElement = document.QuerySelector(".offer-title");
+            var name = nameElement != null ? nameElement.TextContent.Trim() : "Name not found";
+
+            var descriptionElement = document.QuerySelector(".e9na3zb2");
             var description = descriptionElement != null ? descriptionElement.TextContent.Trim() : "Description not found";
             var cleanedDescription = System.Text.RegularExpressions.Regex.Replace(description, @"\{.*?\}|\.[-\w]+", string.Empty).Trim();
 
             var car = new Car
             {
                 Url = url,
+                Name = name,
                 Details = new Dictionary<string, string>(),
                 Description = cleanedDescription,
             };
@@ -79,7 +83,7 @@ namespace CarApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCarToWooCommerce([FromBody] Car car)
+        public async Task<IActionResult> AddCarToWooCommerce([FromForm] Car car)
         {
             if (car == null)
             {
@@ -111,7 +115,7 @@ namespace CarApi.Controllers
 
             var product = new Product
             {
-                name = car.Url,
+                name = car.Name,
                 type = "simple",
                 description = car.Description,
                 regular_price = 0, // You may need to convert this to a decimal or double value

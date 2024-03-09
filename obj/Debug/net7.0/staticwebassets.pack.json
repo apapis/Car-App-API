@@ -1,56 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\Hello.jpg",
-      "PackagePath": "staticwebassets\\images\\Hello.jpg"
+      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\alberta-2297204_1280sadsdsadasd12212.jpg",
+      "PackagePath": "staticwebassets\\images\\alberta-2297204_1280sadsdsadasd12212.jpg"
     },
     {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\alberta-2297204_1280.jpg",
-      "PackagePath": "staticwebassets\\images\\alberta-2297204_1280.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\alberta-2297204_1280sadsd.jpg",
-      "PackagePath": "staticwebassets\\images\\alberta-2297204_1280sadsd.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asd.webp",
-      "PackagePath": "staticwebassets\\images\\asd.webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asd111111.webp",
-      "PackagePath": "staticwebassets\\images\\asd111111.webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asd123456.webp",
-      "PackagePath": "staticwebassets\\images\\asd123456.webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asdads.webp",
-      "PackagePath": "staticwebassets\\images\\asdads.webp"
+      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\alberta-2297204_1280sadsdsadasd12212asdasd.jpg",
+      "PackagePath": "staticwebassets\\images\\alberta-2297204_1280sadsdsadasd12212asdasd.jpg"
     },
     {
       "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asdasda123098.jpg",
       "PackagePath": "staticwebassets\\images\\asdasda123098.jpg"
     },
     {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asdqq123.webp",
-      "PackagePath": "staticwebassets\\images\\asdqq123.webp"
+      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asdasda123098asdasdasd.jpg",
+      "PackagePath": "staticwebassets\\images\\asdasda123098asdasdasd.jpg"
     },
     {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\image (3).webp",
-      "PackagePath": "staticwebassets\\images\\image (3).webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\image (4).webp",
-      "PackagePath": "staticwebassets\\images\\image (4).webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\image (5).webp",
-      "PackagePath": "staticwebassets\\images\\image (5).webp"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\image (6.webp",
-      "PackagePath": "staticwebassets\\images\\image (6.webp"
+      "Id": "C:\\Users\\dell\\Documents\\CarsApi\\wwwroot\\images\\asdasda123098asdasdasd25asd.jpg",
+      "PackagePath": "staticwebassets\\images\\asdasda123098asdasdasd25asd.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarsApi.Microsoft.AspNetCore.StaticWebAssets.props",
